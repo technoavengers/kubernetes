@@ -1,0 +1,32 @@
+{
+    "pathwayTitle": "kubernetes",
+    "title": "Getting Started with kubernetes",
+    "description": "Learn how to deploy serverless functions with Kubeless",
+    "difficulty": "beginner",
+    "time": "10-15 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - Install Kubeless",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2 - Deploy a Python Function",
+                "text": "step2.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+      "imageid": "kubeless"
+    }
+}
